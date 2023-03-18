@@ -14,4 +14,3 @@ if sum_numbers(int(ticket_number / 1000)) == sum_numbers(ticket_number % 1000):
     print(f"{ticket_number} -> yes")
 else:
     print(f"{ticket_number} -> no")
-пше фвв
