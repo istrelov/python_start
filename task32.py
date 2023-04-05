@@ -25,7 +25,7 @@ max_item = UserUnit("Введите максимальное значение: "
 list_random = gen_list(count, max_item)
 res_list = []
 
-for index in range(0, count):
+for index in range(count):
     if min_item < list_random[index] < max_item:
         res_list.append(index) 
 
