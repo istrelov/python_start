@@ -72,7 +72,6 @@ def find_contact(phone_book, need_print):
     findindex = -1
     seached = False
 
-    #for person in phone_book.values():
     for person in phone_book:
         findindex += 1
 
